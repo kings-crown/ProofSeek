@@ -1,0 +1,48 @@
+{
+  "os":  "Linux-6.8.0-52-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.11.9",
+  "startedAt":  "2025-03-02T19:43:26.801469Z",
+  "program":  "/home/siai/Documents/GitHub/NeSy_Policy_Reasoning/Llama3GRPO_math.ipynb",
+  "codePath":  "Llama3GRPO_math.ipynb",
+  "git":  {
+    "remote":  "",
+    "commit":  "058e3cc1755057dc4fc7b51ed0bdfd9da9fa4308"
+  },
+  "email":  "",
+  "root":  "",
+  "host":  "siai-4",
+  "executable":  "/usr/local/bin/python3.11",
+  "codePathLocal":  "Llama3GRPO_math.ipynb",
+  "cpu_count":  32,
+  "cpu_count_logical":  64,
+  "gpu":  "NVIDIA RTX A6000",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "3778773131264",
+      "used":  "3076705411072"
+    }
+  },
+  "memory":  {
+    "total":  "270069399552"
+  },
+  "cpu":  {
+    "count":  32,
+    "countLogical":  64
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.2"
+}
