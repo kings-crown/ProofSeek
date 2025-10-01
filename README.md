@@ -12,13 +12,13 @@ ProofSeek provides the resources behind the "Neural Theorem Proving: Generating 
 ## Datasets
 | Split | File | Description |
 | --- | --- | --- |
-| Quacky (curated) | `data/constructed_proofs/curated_quacky/ProofSeek_curated_quacky_erp.jsonl` | ProofSeek formalizations with Efficient Recursive Proving (ERP) enabled. |
-| Quacky (curated, no ERP) | `data/constructed_proofs/curated_quacky/ProofSeek_curated_quacky_noerp.jsonl` | Same as above without Efficient Recursive Proving (no ERP), enabling ablations. |
-| Quacky (generated) | `data/constructed_proofs/generated_quacky/ProofSeek_quacky_generated_erp.jsonl` | Synthetic proofs generated during RL with ERP active. |
-| Quacky (generated, no ERP) | `data/constructed_proofs/generated_quacky/ProofSeek_quacky_generated_noerp.jsonl` | Synthetic proofs generated during RL without ERP control. |
-| MiniF2F | `data/constructed_proofs/minif2f/ProofSeek_minif2f.jsonl` | ProofSeek outputs on the MiniF2F benchmark. |
-| MiniF2F (no ERP) | `data/constructed_proofs/minif2f/ProofSeek_noerp_minif2f.jsonl` | Variant without Efficient Recursive Proving for comparison. |
-| DeepSeek counterparts | `data/constructed_proofs/**/DeepSeek_*.jsonl` | Parallel runs generated using DeepSeek for baseline comparison.
+| Quacky (curated) | `../ProofSeek_curated_quacky_erp.jsonl` | ProofSeek formalizations with Efficient Recursive Proving (ERP) enabled. |
+| Quacky (curated, no ERP) | `../ProofSeek_curated_quacky_noerp.jsonl` | Same as above without Efficient Recursive Proving (no ERP), enabling ablations. |
+| Quacky (generated) | `../ProofSeek_quacky_generated_erp.jsonl` | Synthetic proofs generated during RL with ERP active. |
+| Quacky (generated, no ERP) | `../ProofSeek_quacky_generated_noerp.jsonl` | Synthetic proofs generated during RL without ERP control. |
+| MiniF2F | `../ProofSeek_minif2f.jsonl` | ProofSeek outputs on the MiniF2F benchmark. |
+| MiniF2F (no ERP) | `../ProofSeek_noerp_minif2f.jsonl` | Variant without Efficient Recursive Proving for comparison. |
+| DeepSeek counterparts | `/**/DeepSeek_*.jsonl` | Parallel runs generated using DeepSeek for baseline comparison.
 
 The SFT dataset is available on Hugging Face: [kings-crown/FVELer_PISA_NotProven](https://huggingface.co/datasets/kings-crown/FVELer_PISA_NotProven). The RL dataset is at [kings-crown/FVELer_PISA_Proven](https://huggingface.co/datasets/kings-crown/FVELer_PISA_Proven).
 
